@@ -36,11 +36,21 @@ body {
     }
 }
 .cart {
+    background-image: url(../img/cart.svg);
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding-left: 45px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
     &-count {
-        background-color: $accent;
+        background-image: url(../img/cartbg.svg);
+        background-repeat: no-repeat;
+        background-position: 0 center;
         color: #fff;
         font-size: 12px;
         font-weight: 700;
-        padding: 10px 15px;
+        padding: 10px 20px;
+        display: block;
     }
 }
