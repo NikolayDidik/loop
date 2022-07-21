@@ -21,6 +21,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 126px;
 }
 
 .nav {
@@ -32,7 +33,7 @@ body {
 }
 
 .nav-item {
-  margin-left: 35px;
+  margin-right: 52px;
 }
 
 .nav-link {
@@ -60,5 +61,59 @@ body {
   font-weight: 700;
   padding: 10px 20px;
   display: block;
+}
+
+.btn {
+  background-color: #D7B399;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 15px 20px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.main .sale-description {
+  font-size: 30px;
+}
+
+.main .sale-title {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.box {
+  position: relative;
+}
+
+.box-prise {
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+
+.box-prise-old {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.box-prise-new {
+  font-size: 42px;
+  font-weight: 700;
+  color: #D84033;
 }
 /*# sourceMappingURL=style.css.map */
